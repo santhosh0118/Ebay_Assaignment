@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="258010" started-at="2014-09-23T11:24:51Z" finished-at="2014-09-23T11:29:09Z">
+    <groups>
+    </groups>
+    <test name="Items Matching" duration-ms="40329" started-at="2014-09-23T11:24:51Z" finished-at="2014-09-23T11:25:31Z">
+      <class name="AllTests.ItemMatching">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:AllTests.ItemMatching@10a2bb0]" name="beforeMethod" is-config="true" duration-ms="12803" started-at="2014-09-23T16:54:51Z" finished-at="2014-09-23T16:55:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ItemsMatching()[pri:0, instance:AllTests.ItemMatching@10a2bb0]" name="ItemsMatching" duration-ms="23867" started-at="2014-09-23T16:55:03Z" finished-at="2014-09-23T16:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ItemsMatching -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:AllTests.ItemMatching@10a2bb0]" name="afterMethod" is-config="true" duration-ms="3647" started-at="2014-09-23T16:55:27Z" finished-at="2014-09-23T16:55:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- AllTests.ItemMatching -->
+    </test> <!-- Items Matching -->
+    <test name="Rules and Policies" duration-ms="90655" started-at="2014-09-23T11:25:31Z" finished-at="2014-09-23T11:27:02Z">
+      <class name="AllTests.RulesAndPolicies">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:AllTests.RulesAndPolicies@175870a]" name="beforeMethod" is-config="true" duration-ms="10399" started-at="2014-09-23T16:55:31Z" finished-at="2014-09-23T16:55:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="RulesAndPoliciess()[pri:0, instance:AllTests.RulesAndPolicies@175870a]" name="RulesAndPoliciess" duration-ms="76946" started-at="2014-09-23T16:55:41Z" finished-at="2014-09-23T16:56:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RulesAndPoliciess -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:AllTests.RulesAndPolicies@175870a]" name="afterMethod" is-config="true" duration-ms="3309" started-at="2014-09-23T16:56:58Z" finished-at="2014-09-23T16:57:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- AllTests.RulesAndPolicies -->
+    </test> <!-- Rules and Policies -->
+    <test name="SideScroll" duration-ms="34183" started-at="2014-09-23T11:27:02Z" finished-at="2014-09-23T11:27:36Z">
+      <class name="AllTests.SideScroll">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:AllTests.SideScroll@15c0d7]" name="beforeMethod" is-config="true" duration-ms="8319" started-at="2014-09-23T16:57:02Z" finished-at="2014-09-23T16:57:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Sideescroll()[pri:0, instance:AllTests.SideScroll@15c0d7]" name="Sideescroll" duration-ms="22472" started-at="2014-09-23T16:57:10Z" finished-at="2014-09-23T16:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sideescroll -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:AllTests.SideScroll@15c0d7]" name="afterMethod" is-config="true" duration-ms="3391" started-at="2014-09-23T16:57:32Z" finished-at="2014-09-23T16:57:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- AllTests.SideScroll -->
+    </test> <!-- SideScroll -->
+    <test name="Watchings" duration-ms="40413" started-at="2014-09-23T11:27:36Z" finished-at="2014-09-23T11:28:16Z">
+      <class name="AllTests.Watchings">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:AllTests.Watchings@1194a34]" name="beforeMethod" is-config="true" duration-ms="10102" started-at="2014-09-23T16:57:36Z" finished-at="2014-09-23T16:57:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:AllTests.Watchings@1194a34]" name="f" duration-ms="27070" started-at="2014-09-23T16:57:46Z" finished-at="2014-09-23T16:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:AllTests.Watchings@1194a34]" name="afterMethod" is-config="true" duration-ms="3240" started-at="2014-09-23T16:58:13Z" finished-at="2014-09-23T16:58:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- AllTests.Watchings -->
+    </test> <!-- Watchings -->
+    <test name="Watching List" duration-ms="52291" started-at="2014-09-23T11:28:16Z" finished-at="2014-09-23T11:29:09Z">
+      <class name="AllTests.WatchList">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:AllTests.WatchList@18a3257]" name="initialize" is-config="true" duration-ms="14" started-at="2014-09-23T16:54:51Z" finished-at="2014-09-23T16:54:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:AllTests.WatchList@18a3257]" name="beforeMethod" is-config="true" duration-ms="11476" started-at="2014-09-23T16:58:16Z" finished-at="2014-09-23T16:58:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:AllTests.WatchList@18a3257]" name="f" duration-ms="40814" started-at="2014-09-23T16:58:28Z" finished-at="2014-09-23T16:59:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:AllTests.WatchList@18a3257]" name="afterMethod" is-config="true" duration-ms="1" started-at="2014-09-23T16:59:09Z" finished-at="2014-09-23T16:59:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- AllTests.WatchList -->
+    </test> <!-- Watching List -->
+  </suite> <!-- Suite1 -->
+</testng-results>

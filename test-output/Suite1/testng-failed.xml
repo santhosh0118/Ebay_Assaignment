@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test name="Watching List(failed)">
+    <classes>
+      <class name="AllTests.ItemMatching">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- AllTests.ItemMatching -->
+      <class name="AllTests.WatchList">
+        <methods>
+          <include name="initialize"/>
+          <include name="f"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- AllTests.WatchList -->
+      <class name="AllTests.RulesAndPolicies">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- AllTests.RulesAndPolicies -->
+      <class name="AllTests.SideScroll">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- AllTests.SideScroll -->
+      <class name="AllTests.Watchings">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- AllTests.Watchings -->
+    </classes>
+  </test> <!-- Watching List(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

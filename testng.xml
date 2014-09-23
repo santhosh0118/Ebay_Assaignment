@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1">
+ 
+  <test name="Items Matching">
+    <classes>
+     	<class name="AllTests.ItemMatching"/>
+     	
+    </classes>
+     </test> 
+     
+     <test name="Rules and Policies">
+    <classes>
+     	<class name="AllTests.RulesAndPolicies"/>
+     	
+    </classes>
+     </test> 
+    
+    <test name="SideScroll">
+    <classes>
+     	<class name="AllTests.SideScroll"/>
+     	
+    </classes>
+     </test> 
+     
+     <test name="Watchings">
+    <classes>
+     	<class name="AllTests.Watchings"/>
+     	
+    </classes>
+     </test> 
+     
+     <test name="Watching List">
+    <classes>
+     	<class name="AllTests.WatchList"/>
+     	
+    </classes>
+     </test> 
+     
+</suite>	
