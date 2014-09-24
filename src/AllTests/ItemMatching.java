@@ -21,6 +21,7 @@ public class ItemMatching extends Helper {
   public void ItemsMatching() {
 		
 	//Login Into Ebay Site
+		h.sleep(2);
 		h.login();
 		
 
@@ -49,6 +50,7 @@ public class ItemMatching extends Helper {
 		
 		
 	//Storing the Listed items into a Array list
+		
 		if(driver.findElements(By.id(Or.getProperty("mainContainer_Id"))).size()>0){
 			System.out.println("Ebay search main container is Identified");
 		}else{

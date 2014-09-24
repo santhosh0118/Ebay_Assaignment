@@ -20,12 +20,15 @@ public class RulesAndPolicies extends Helper{
   public void RulesAndPoliciess(){
 	  	
 		//Login Into Ebay Site
-			h.login();
-			h.sleep(10);
+		h.sleep(10);	
+		h.login();
+		
 		
 			
 		//Clicking on Policies 
-			if(driver.findElements(By.linkText(Or.getProperty("Policies_LinkText"))).size()>0){
+			
+		h.sleep(10);
+		if(driver.findElements(By.linkText(Or.getProperty("Policies_LinkText"))).size()>0){
 				System.out.println("Ebay Policies link Text is Identified");
 				
 			}else{
@@ -37,6 +40,7 @@ public class RulesAndPolicies extends Helper{
 			
 			
 		//Storing the links displayed into a list
+			h.sleep(3);
 			if(driver.findElements(By.name(Or.getProperty("MainContainer_Name"))).size()>0){
 				System.out.println("Ebay Policies container is Identified");
 				

@@ -18,7 +18,8 @@ public class SideScroll extends Helper{
   public void Sideescroll() {
 	
 	//Login 
-		h.login();
+	h.sleep(2);	
+	h.login();
 	
 		
 	//Clicking on the ebay logo to load the page completly.
@@ -29,13 +30,15 @@ public class SideScroll extends Helper{
 			System.out.println("Ebay Element Cann't be Identify");
 		}
 		
+		h.sleep(2);
 		driver.findElement(By.id(Or.getProperty("EbayLogo_id"))).click();
 		
+		
+		
+		
+		
+		//Storing the container Elements into Arraylist
 		h.sleep(5);
-		
-		
-		
-	//Verifying Wether container found or not.
 		if(driver.findElements(By.className(Or.getProperty("ScrollContainer_class"))).size()>0){
 			System.out.println("Container Element Identified");
 			
@@ -51,9 +54,6 @@ public class SideScroll extends Helper{
 		}
 		
 		
-		
-		
-	//Storing the container Elements into Arraylist
 		List<WebElement> sidescroll = driver.findElement(By.className(Or.getProperty("ScrollContainer_class"))).findElements(By.className(Or.getProperty("Radiobuttons_TagName")));
 		System.out.println("Number of items in container  : " + sidescroll.size());
 		

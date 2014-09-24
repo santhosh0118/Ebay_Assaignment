@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite1]">
-  <test name="Watching List(failed)">
+  <test name="Watchings(failed)">
     <classes>
       <class name="AllTests.ItemMatching">
         <methods>
@@ -9,14 +9,13 @@
           <include name="afterMethod"/>
         </methods>
       </class> <!-- AllTests.ItemMatching -->
-      <class name="AllTests.WatchList">
+      <class name="AllTests.Watchings">
         <methods>
-          <include name="initialize"/>
-          <include name="f"/>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- AllTests.WatchList -->
+      </class> <!-- AllTests.Watchings -->
       <class name="AllTests.RulesAndPolicies">
         <methods>
           <include name="beforeMethod"/>
@@ -29,12 +28,13 @@
           <include name="afterMethod"/>
         </methods>
       </class> <!-- AllTests.SideScroll -->
-      <class name="AllTests.Watchings">
+      <class name="AllTests.WatchList">
         <methods>
+          <include name="initialize"/>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- AllTests.Watchings -->
+      </class> <!-- AllTests.WatchList -->
     </classes>
-  </test> <!-- Watching List(failed) -->
+  </test> <!-- Watchings(failed) -->
 </suite> <!-- Failed suite [Suite1] -->

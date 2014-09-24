@@ -19,7 +19,8 @@ public class Watchings extends Helper {
 	  
 	
 	//Login
-	  	h.login();
+	//  h.sleep(2);	
+	 // h.login();
 	  	
 	  	
 	  	
@@ -43,11 +44,13 @@ public class Watchings extends Helper {
 		}
 		
 		driver.findElement(By.id(Or.getProperty("SearchButton_Id"))).click();
-		h.sleep(10);
+		
 	 
 		
 		
 	//Storing the search elements into first list.
+		
+		h.sleep(20);
 		if(driver.findElements(By.id(Or.getProperty("mainContainer_Id"))).size()>0){
 			System.out.println("Ebay search container is Identified");
 		}else{
@@ -68,7 +71,7 @@ public class Watchings extends Helper {
 		
 		
 	//Printing the title names and how many r watching the product.
-		
+		h.sleep(3);
 		if(driver.findElements(By.cssSelector(Or.getProperty("Title_Cssselector"))).size()>0){
 			System.out.println("Ebay search items titles are  Identified");
 		}else{

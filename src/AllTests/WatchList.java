@@ -19,11 +19,12 @@ public class WatchList extends Helper {
   public void f() {
 	  
 	//Login 
+		h.sleep(2);
 		h.login();
 	
 		
 	//clicking on My-Ebay
-		h.sleep(10);
+		h.sleep(15);
 		
 		if(driver.findElements(By.id(Or.getProperty("MyEbay_Id"))).size()>0){
 			System.out.println("My-Ebay item is Identified");

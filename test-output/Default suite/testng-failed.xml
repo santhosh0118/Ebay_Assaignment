@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="AllTests.WatchList">
+      <class name="AllTests.Watchings">
         <methods>
           <include name="initialize"/>
-          <include name="f"/>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- AllTests.WatchList -->
+      </class> <!-- AllTests.Watchings -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

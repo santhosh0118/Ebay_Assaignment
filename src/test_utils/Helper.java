@@ -3,6 +3,9 @@ package test_utils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+
 import test_base.TestBase;
 
 public class Helper extends TestBase {
@@ -13,9 +16,9 @@ public class Helper extends TestBase {
 	public void browserType() {
 		
 	System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe");
-		 driver = new ChromeDriver();
+		driver = new ChromeDriver();
 			
-	/*	 if(config.getProperty("browserType").equalsIgnoreCase("Firefox")) {
+	/* if(config.getProperty("browserType").equalsIgnoreCase("Firefox")) {
 			  driver= new FirefoxDriver();
 		  }
 		  else if(config.getProperty("browserType").equalsIgnoreCase("Chrome")) {
