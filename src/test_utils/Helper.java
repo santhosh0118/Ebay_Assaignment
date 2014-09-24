@@ -15,10 +15,10 @@ public class Helper extends TestBase {
 	//Selecting Browser Type and Opening browser
 	public void browserType() {
 		
-	System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe");
-		driver = new ChromeDriver();
+	//System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe");
+		//driver = new ChromeDriver();
 			
-	/* if(config.getProperty("browserType").equalsIgnoreCase("Firefox")) {
+	 if(config.getProperty("browserType").equalsIgnoreCase("Firefox")) {
 			  driver= new FirefoxDriver();
 		  }
 		  else if(config.getProperty("browserType").equalsIgnoreCase("Chrome")) {
@@ -29,7 +29,7 @@ public class Helper extends TestBase {
 			  if(config.getProperty("browserType").equalsIgnoreCase("IE"))
 			  System.setProperty("webdriver.ie.driver", "C:\\IEDriverServer.exe");
 			  driver=new InternetExplorerDriver();
-		  }	 */
+		  }	 
 	}
 	
 	
